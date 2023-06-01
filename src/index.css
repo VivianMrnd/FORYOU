@@ -50,5 +50,6 @@ svg text {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 15px 25px 10px 1px rgba(108, 73, 124, 0.39);
 }
 /* ----end compilation---- */
