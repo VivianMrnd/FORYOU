@@ -1,47 +1,54 @@
 html{
 
 }
-
+body{
+  margin: 0;
+  padding: 0;
+}
 /* ----navigation---- */
 .nav-link:hover{
   background-color: rgb(109, 73, 73);
 }
 /* ---- end navigation---- */
 /* ----Home---- */
-.headertext{
-  font-size:3vw;
-  position: relative;
-  color: hsl(0, 3%, 30%);
-  font-weight: bold;
-  font-family: "Anonymous Pro", monospace;
-  letter-spacing: 1.2px;
-  overflow: hidden;
-  border-right: 2px solid hsl(0, 0%, 80%);
-  white-space: nowrap;
-  animation: typewriter 4s steps(44) 1s 1 normal both,
-    blinkTextCursor 500ms infinite;
+.patterns {
+  height: 71vh;
+}
+svg text {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 5px;
+  stroke: #181718;
+  font-size: 95px;
+  font-weight: 700;
+  stroke-width: 3;
+ 
+  animation: textAnimate 5s infinite alternate;
+  
 }
 
-@keyframes typewriter {
-  from {
-    width: 0;
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:hsl(187, 5%, 34%)
+
   }
-  to {
-    width: 710px;
+  
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: hsla(189, 68%, 75%,0%)
   }
-}
-@keyframes blinkTextCursor {
-  from {
-    border-right-color: hsl(0, 5%, 13%);
-  }
-  to {
-    border-right-color: transparent;
-  }
+  
 }
 /* ----end Home---- */
 /* ----compilation---- */
-.textcompilation{
-  display: table-cell;
-  vertical-align: middle;
+.compilation img{
+  box-shadow: 15px 25px 10px 1px rgba(108, 73, 124, 0.39);
+}
+.compilation .message{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* ----end compilation---- */

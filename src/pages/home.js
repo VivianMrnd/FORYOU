@@ -1,19 +1,57 @@
-import c1 from "../assets/IMG_0 (5).MOV"
+import c1 from "../assets/IMG-7192.PNG";
+import c2 from "../assets/sun.JPG";
+import c3 from "../assets/kyot.jpg";
+import c4 from "../assets/IMG-4334.JPG";
+
 const Home = () =>{
     return(
         <div className="home container">
-            <section  id="home" className="mainheader" style={{minHeight:"60vh", paddingTop:"120px"}}>
-                <h2 className="headertext">HAPPY 1ST MONTHSARY BABY,</h2>
-                <h6 className="headertext">I love you, kung di moko love</h6>
-                <h5 className="headertext">edi putangina mo &#10084;...</h5>
+            <section  id="home" className="mainheader" style={{minHeight:"60vh"}}>
+                <div class="patterns">
+                    <svg width="100%" height="100%">
+                        <defs>
+                            <pattern id="polka-dots" x="0" y="0" width="100" height="100"
+                                    patternUnits="userSpaceOnUse">
+                                <circle fill="#be9ddf" cx="25" cy="25" r="3"></circle>
+                            </pattern>  
+                            <style>
+                            </style>
+                        
+                        </defs>
+                                    
+                        <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
+                        
+                        <text x="50%" y="50%"  text-anchor="middle"  >
+                            Happy Monthsary baby!
+                        </text>
+                    </svg>
+                </div>
             </section>
-            <section  id="compilation" className="compilation" style={{minHeight:"100vh", paddingTop:"20px"}}>
-                <div className="row m-0 p-0">
-                    <div className="col-6">
-                        <video style={{width: "100%", height: "50%"}} src={c1} className="card-img-top" controls autoPlay loop  muted alt="compilation"> </video>                               
+            <section  id="compilation" className="compilation" style={{minHeight:"100vh", paddingTop:"70px"}}>
+                <div className="row compilation pb-5 m-0">
+                    <div className="col-6 text-center">
+                        <img src={c1} class=" w-50 card-img-top" alt="compilation"/>
                     </div>
-                    <div className="col-6 ">
-                        <h4 className=" textcompilation">Remember this night? ge alalahanin mo HAHAHAHAA</h4>
+                    <div className="col-6 message text-center">
+                        <h3>Hindi ako nagphophone sa work pero wala e, dumating ka sa buhay ko</h3>
+                    </div>
+                    <div className="col-6 message text-center">
+                        <h3>Ang saya saya ko with you so kapag hindi kita kasama or nakausap for just a day nanghihina ako &#128542;</h3>
+                    </div>
+                    <div className="col-6 text-center">
+                        <img src={c2} class=" w-50 card-img-top" alt="compilation"/>
+                    </div>
+                    <div className="col-6 text-center">
+                        <img src={c3} class=" w-50 card-img-top" alt="compilation"/>
+                    </div>
+                    <div className="col-6 message text-center">
+                        <h3>I love seeing you enjoy simple stuff hehe, sana laging ganyan </h3>
+                    </div>
+                    <div className="col-6 message text-center">
+                        <h3>Tama na drama baby ayoko maiyak hmp...</h3>
+                    </div>
+                    <div className="col-6 text-center">
+                        <img src={c4} class=" w-50 card-img-top" alt="compilation"/>
                     </div>
                 </div>
             </section>
