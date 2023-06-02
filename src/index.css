@@ -16,16 +16,16 @@ body{
 }
 svg text {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   stroke: #181718;
-  font-size: 95px;
+  font-size: 70px;
   font-weight: 700;
   stroke-width: 3;
- 
   animation: textAnimate 5s infinite alternate;
-  
 }
-
+.hmb{
+  white-space: initial;
+}
 @keyframes textAnimate {
   0% {
     stroke-dasharray: 0 50%;
