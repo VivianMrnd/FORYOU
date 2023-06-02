@@ -12,9 +12,9 @@ const Nav = ()=>{
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className=" navbar-nav ">
-                        <a className="mx-3 text-light nav-link" href="#">Home</a>
-                        <a className="mx-3 text-light nav-link" href="#">Compilation</a>
-                        <a className="mx-3 text-light nav-link" href="#">Cute Section</a>
+                        <a className="mx-3 text-light nav-link" href="#home">Home</a>
+                        <a className="mx-3 text-light nav-link" href="#compilation">Compilation</a>
+                        <a className="mx-3 text-light nav-link" href="#aboutyou">About you</a>
                         <a className="mx-3 text-light nav-link" href="#">What we shared</a>
                         <a className="mx-3 text-light nav-link" href="#">Meme Section</a>
                     </div>
