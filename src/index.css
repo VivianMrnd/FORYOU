@@ -10,6 +10,14 @@ body{
   background-color: rgb(109, 73, 73);
 }
 /* ---- end navigation---- */
+/* ----footer---- */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ---- end footer---- */
+
 /* ----Home---- */
 .patterns {
   height: 71vh;
@@ -19,7 +27,7 @@ svg text {
   letter-spacing: 2px;
   stroke: #181718;
   font-size: 70px;
-  font-weight: 700;
+  font-weight: 600;
   stroke-width: 3;
   animation: textAnimate 5s infinite alternate;
 }
@@ -53,3 +61,33 @@ svg text {
   box-shadow: 15px 25px 10px 1px rgba(108, 73, 124, 0.39);
 }
 /* ----end compilation---- */
+
+/* ----about you---- */
+
+.textaboutyou{
+text-align: justify;
+}
+.aboutyou img{
+  box-shadow: 15px 25px 10px 1px rgba(108, 73, 124, 0.39);
+}
+/* ----/about you---- */
+
+/* ----what we shared---- */
+.wwscarousel img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.wwscarousel .carousel-item{
+
+}
+.carousel-inner{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.wwscarousel{
+  max-width: 60%;
+}
+/* ----/what we shared---- */
