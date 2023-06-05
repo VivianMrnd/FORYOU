@@ -28,7 +28,7 @@ const Home = () =>{
                                     
                         <rect x="0" y="0" width="100%" height="100%" fill="url(#polka-dots)"> </rect>
                         
-                        <text x="50%" y="50%"  text-anchor="middle"  >
+                        <text className="hmb" x="50%" y="50%"  text-anchor="middle"  >
                             Happy Monthsary baby!
                         </text>
                     </svg>

@@ -29,11 +29,11 @@ svg text {
   font-size: 40px;
   font-weight: 300;
   stroke-width: 3;
- 
   animation: textAnimate 5s infinite alternate;
-  
 }
-
+.hmb{
+  white-space: initial;
+}
 @keyframes textAnimate {
   0% {
     stroke-dasharray: 0 50%;
