@@ -26,8 +26,8 @@ svg text {
   font-family:Georgia, 'Times New Roman', Times, serif;
   letter-spacing: 2px;
   stroke: #181718;
-  font-size: 70px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 300;
   stroke-width: 3;
  
   animation: textAnimate 5s infinite alternate;
